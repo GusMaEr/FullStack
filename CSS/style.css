@@ -1,18 +1,21 @@
 body {
-background-color: rgb(186, 42, 42);
-}
+    background-color:lightgray ;
+    }
 
-label{font-style: italic;}
+label{
+    font-style: italic;
+    }
 
-h1{font-weight: lighter;}
+h1{
+    font-weight: lighter;
+    }
 
 .txtTitulo{
     font-style: italic;
     font-size: 2rem;
     font-weight: bold;
     align-items: center;
-    
-}
+    }
 .txtAzul{color: blue; font-weight:bolder;}
 .txtVerde{color: green;}
 .txtRojo{color: red;}
