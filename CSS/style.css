@@ -21,3 +21,9 @@ h1{
 .txtRojo{color: red;}
 .txtAmarillo{color: yellow;}
 .txtLima{color: yellowgreen;}
+
+.test{
+    background: 1px;
+    height: 100px;
+    width: 100px;
+}
