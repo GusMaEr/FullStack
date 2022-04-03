@@ -4,6 +4,7 @@ body {
 
 label{
     font-style: italic;
+    font-weight: bold;
     }
 
 h1{
@@ -21,9 +22,11 @@ h1{
 .txtRojo{color: red;}
 .txtAmarillo{color: yellow;}
 .txtLima{color: yellowgreen;}
+.txtNegro{color: black; background-color: aqua; font-size: 2rem;}
 
-.test{
-    background: 1px;
-    height: 100px;
-    width: 100px;
+#posRelative {
+    position: relative;
+    background-color: blue;
+    top: 2px;
+    left: 10px;
 }
