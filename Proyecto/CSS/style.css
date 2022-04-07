@@ -12,3 +12,8 @@
     background-color: rgb(122, 122, 122);
     
 }
+.img-responsive{
+    width: fit-content;
+    height: max-content;
+
+}
