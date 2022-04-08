@@ -1,19 +1,13 @@
 .imgBsAS{
-
-    height:2075.7px;
-    width:  721px;
+    height: 30px;
+    width:  max-content;
  
 }
 .subtitulo{
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: bold;
     font-style: oblique;
     text-align: right;
-    background-color: rgb(122, 122, 122);
+    background-color: rgba(243, 240, 240, 0.5);
     
-}
-.img-responsive{
-    width: fit-content;
-    height: max-content;
-
 }
