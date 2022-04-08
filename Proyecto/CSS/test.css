@@ -1,0 +1,57 @@
+* {
+    box-sizing:border-box ;
+}
+img{
+    width: 100%;
+}
+html {
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    height: 100vh;
+    background-color: yellow;
+}
+.hero{
+    height: 100%;
+    background-image: url(Ciudad-autonoma-de-buenos-aires.png);
+    background-size: cover;
+}
+.nav_bar{
+    height: 10%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 10%;
+}
+.menu{
+    margin-right: 10%;
+}
+.hero_2{
+    height: 100%;
+    background-color: blanchedalmond;
+}
+.cuerpo{
+    /*border: 3px black solid;*/
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ;
+}
+.textoPPAL{
+    /*border:3px red solid;*/
+    width: 30%;
+    margin-right: 5%;
+    color: black;
+    font-size: 20px;
+}
+.pie{
+    background-color: gray;
+    height: 13%;
+    
+}
