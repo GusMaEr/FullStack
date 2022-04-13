@@ -14,6 +14,8 @@ body {
     height: 100vh;
     background-color: yellow;
 }
+
+/*Parte Superior de la pagina*/
 .hero{
     height: 100%;
     background-image: url(Ciudad-autonoma-de-buenos-aires.png);
@@ -32,10 +34,8 @@ body {
 .menu{
     margin-right: 10%;
 }
-.hero_2{
-    height: 100%;
-    background-color: blanchedalmond;
-}
+
+/*Texto sobre la imagen*/
 .cuerpo{
     /*border: 3px black solid;*/
     height: 90%;
@@ -52,6 +52,14 @@ body {
     font: bold;
     font-style: italic;
     }
+
+    /*Parte central de la pagina*/
+.hero_2{
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+/*Pie de la pagina*/
 footer {
     color: white;
     background-color: DarkSalmon;
@@ -59,10 +67,8 @@ footer {
     display: flex;
     align-items: center;   
     justify-content: space-between;
-}
-.logo_pie {
-   margin-left: 2%;
+    padding: 3px;
 }
 .menu_pie{
-    margin-right: 2%;
+margin-right: 2%;
 }
