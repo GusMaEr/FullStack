@@ -21,7 +21,7 @@ body {
 }
 .nav_bar{
     height: 10%;
-    background-color: gray;
+    background-color: lightyellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,8 +42,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items:center ;
-    
-}
+ }
 .textoPPAL{
     /*border:3px red solid;*/
     width: 30%;
@@ -53,22 +52,17 @@ body {
     font: bold;
     font-style: italic;
     }
-
-.pie{
-    background-color: gray;
-    height: 10%;
-    
-}
-.nav_pie{
-    height: 5%;
-    background-color: gray;
+footer {
+    color: white;
+    background-color: DarkSalmon;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: center;   
+    justify-content: space-between;
 }
-.logo_pie{
-    margin-left: 5%;
+.logo_pie {
+   margin-left: 2%;
 }
 .menu_pie{
-    margin-right: 10%;
+    margin-right: 2%;
 }
