@@ -67,8 +67,9 @@ footer {
     display: flex;
     align-items: center;   
     justify-content: space-between;
-    padding: 3px;
 }
 .menu_pie{
-margin-right: 2%;
+    margin-left: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
