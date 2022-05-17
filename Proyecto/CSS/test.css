@@ -1,124 +1,177 @@
+/*MAIN*/
 * {
-    box-sizing:border-box ;
+    box-sizing: border-box;
 }
-img{
+
+img {
     width: 100%;
 }
+
 html {
     padding: 0;
 }
+
 body {
     margin: 0;
     padding: 0;
     border: 1px solid black;
     height: 100vh;
- /*   background-color: yellow;*/
+    /*   background-color: yellow;*/
 }
 
 /*Parte Superior de la pagina*/
-.hero{
+.hero {
     height: 100%;
     background-image: url(Ciudad-autonoma-de-buenos-aires.png);
     background-size: cover;
 }
-.nav_bar{
+
+.nav_bar {
     height: 10%;
-    background-color: lightyellow;
+    background-color: #474b4e;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     margin-left: 10%;
+    width: 10rem;
 }
-.menu{
+
+.menu {
     margin-right: 10%;
 }
 
 /*Texto sobre la imagen*/
-.cuerpo{
+.cuerpo {
     /*border: 3px black solid;*/
     height: 90%;
     display: flex;
     justify-content: flex-end;
-    align-items:center ;
- }
-.textoPPAL{
+    align-items: center;
+}
+
+.textoPPAL {
     /*border:3px red solid;*/
     width: 30%;
     margin-right: 5%;
     color: black;
     font-size: 20px;
-    font: bold;
+    font: bolder;
     font-style: italic;
-    }
-
-    /*Parte central de la pagina*/
-.hero_2{
-    height: 100%;
-  /*  background-color: blanchedalmond;*/
 }
-.oradores{
+
+/*Parte central de la pagina*/
+.hero_2 {
+    height: 90%;
+    /* background-color: blanchedalmond;*/
+}
+
+.subTitle {
+    width: 30%;
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+.oradores {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
 
-    
-}
-.subTitle{
-    text-align: center;
-   margin: auto;
-   padding: auto;
-}
-.tarjeta{
+.tarjeta {
     width: 300px;
     height: 480px;
-    border: 1px solid lightgray ;
+    border: 1px solid lightgray;
     border-radius: 5px;
-    margin:1rem;
+    margin: 1rem;
 }
-.tarjeta img{
+
+.tarjeta img {
     width: 300px;
 }
-.tarjeta .botones{
+
+.tarjeta .botones {
     margin: 1rem .5rem .5rem .5rem;
 }
-.tarjeta .botones input [type=button]{
+
+.tarjeta .botones input [type=button] {
     padding: .2rem .4rem .2rem .4rem;
     font-size: .6rem;
     font-weight: bold;
     border: 0rem;
     border-radius: 5px;
 }
-.tarjeta .botones .btnAmarillo{
-    background-color: rgb(255, 194,7);
+
+.tarjeta .botones .btnAmarillo {
+    background-color: rgb(255, 194, 7);
 }
-.tarjeta .botones .btnAzul{
-    background-color: rgb(23, 162,188);
+
+.tarjeta .botones .btnAzul {
+    background-color: rgb(23, 162, 188);
     color: white;
 }
-.tarjeta .titulo{
+
+.tarjeta .titulo {
     font-size: 1.3rem;
     margin: .2rem .5rem 1rem .5rem;
     font-weight: bold;
 }
-.tarjeta .texto{
+
+.tarjeta .texto {
     font-size: .8rem;
     margin: .5rem;
     font-weight: bold;
     text-align: justify;
 }
 
+/*FIN*/
+.fin {
+    /*background-color: aquamarine;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.tabla_img {
+    width: 50rem;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+
+}
+
+.fin .lorem {
+    background-color: #474b4e;
+    font-size: 1.5rem;
+    margin: 0rem;
+    padding: 6rem;
+    font-weight: bold;
+    text-align: justify;
+    color: white;
+}
+
 /*Pie de la pagina*/
 footer {
     color: white;
-    background-color: DarkSalmon;
+    background-color: #153134;
     height: 100%;
     display: flex;
-    align-items: center;   
+    align-items: center;
     justify-content: space-between;
 }
-.menu_pie{
+
+.postularse {
+    padding-left: 35%;
+}
+
+.submit {
+    background-color: rgb(23, 162, 188);
+    color: white;
+}
+
+.menu_pie {
     margin-left: 25%;
     margin-top: 25px;
     margin-bottom: 25px;

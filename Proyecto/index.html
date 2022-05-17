@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS/test.css">
 </head>
+
 <body>
     <div class="hero">
         <nav class="nav_bar">
-            <div class="logo">LOGO</div>
+            <div class="logo"> <img src="Imagenes/codoacodo.png" alt="LOGO"> </div>
             <div class="menu">
                 <button>La conferencia</button>
                 <button>Los oradores</button>
@@ -22,65 +24,110 @@
         <div class="cuerpo">
             <section class="textoPPAL">
                 <h3 class="bsasconf">BS AS CONF</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt ratione maiores sit, delectus exercitationem labore quasi ullam dolore praesentium quos, amet laboriosam voluptate! Quas omnis nobis nihil, culpa sint atque.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt ratione maiores sit, delectus
+                    exercitationem labore quasi ullam dolore praesentium quos, amet laboriosam voluptate! Quas omnis
+                    nobis nihil, culpa sint atque.</p>
                 <div>
-                    <button>Quiero ser orador</button>
-                    <button>Comprar Tickets</button>
+                    <button class="submit">Quiero ser orador</button>
+                    <button class="submit">Comprar Tickets</button>
                 </div>
             </section>
         </div>
     </div>
     <div class="hero_2">
+        <Div>
+            <h3 class="subTitle">Conoce a los oradores</h3>
+        </Div>
         <div class="oradores">
-            <Div><h3 class="subTitle">Conoce a los oradores</h3></Div>
-            <div class="tarjeta"> 
+            <div class="tarjeta">
                 <img src="Imagenes/jobs.png" alt="Steve Jobs">
                 <div class="botones">
                     <input type="button" value="JavaScript" class="btnAmarillo">
                     <input type="button" value="React" class="btnAzul">
                 </div>
                 <div class="titulo">Steve Jobs</div>
-                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Alias illo expedita quae reprehenderit! Corporis tempora quas laudantium commodi voluptatem minima voluptatum, 
+                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias illo expedita quae reprehenderit! Corporis tempora quas laudantium commodi voluptatem minima
+                    voluptatum,
                     aliquam iusto dicta! Architecto perferendis eos est sit facilis
                 </div>
             </div>
-            <div class="tarjeta"> 
+            <div class="tarjeta">
                 <img src="Imagenes/Gates.png" alt="Bill Gate">
                 <div class="botones">
                     <input type="button" value="JavaScript" class="btnAmarillo">
                     <input type="button" value="React" class="btnAzul">
                 </div>
                 <div class="titulo">Bill Gates</div>
-                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Alias illo expedita quae reprehenderit! Corporis tempora quas laudantium commodi voluptatem minima voluptatum, 
+                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias illo expedita quae reprehenderit! Corporis tempora quas laudantium commodi voluptatem minima
+                    voluptatum,
                     aliquam iusto dicta! Architecto perferendis eos est sit facilis
                 </div>
             </div>
-            <div class="tarjeta"> 
+            <div class="tarjeta">
                 <img src="Imagenes/Ada.png" alt="Ada">
                 <div class="botones">
                     <input type="button" value="JavaScript" class="btnAmarillo">
                     <input type="button" value="React" class="btnAzul">
                 </div>
                 <div class="titulo">Ada</div>
-                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Alias illo expedita quae reprehenderit! Corporis tempora quas laudantium commodi voluptatem minima voluptatum, 
+                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias illo expedita quae reprehenderit! Corporis tempora quas laudantium commodi voluptatem minima
+                    voluptatum,
                     aliquam iusto dicta! Architecto perferendis eos est sit facilis
                 </div>
             </div>
         </div>
     </div>
+
+    <div>
+        <table class="fin">
+            <tr>
+                <td class="tabla_img">
+                    <div><img src="Imagenes/hawaii2.jpg" alt="bsas">
+                    </div>
+                </td>
+                <td>
+                    <div class="lorem">
+                        <h3>BS AS - Octubre</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia autem est tempore dicta
+                            animi ratione iure ut dignissimos doloribus esse illo perspiciatis, accusamus quibusdam,
+                            omnis quam placeat totam nostrum optio?</p>
+                        <input class="submit" type="button" value="Conoce mas">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <div>
+            <h3 class="subTitle">Convierte en horador</h3>
+        </div>
+        <div class="postularse">
+            <label for="NOME">Nombre</label>
+            <input type="text" name="Nombre" id="NOME" placeholder="Ingrese Nombre" required>
+            <label for="APE">Apellido</label>
+            <input type="text" name="Apellido" id="APE" placeholder="Ingrese Apellido" required>
+            <br><br>
+            <label for="OBS"></label>
+            <textarea name="Sobre que quieres hablar" id="OBS" cols="55" rows="" placeholder="Sobre que quieres hablar?"
+                required></textarea>
+            <br><br>
+            <input class="submit" type="submit" name="Enviar" size="30px">
+            <br><br>
+        </div>
+    </div>
     <div>
         <footer>
             <div class="menu_pie">
-                 <button>Pregunta frecuentes</button>
-                 <button>Contactanos</button>
-                 <button>Prensa</button>
-                 <button>conferencia</button>
-                 <button>Terminos y condiciones</button>
-                 <button>Privacidad</button>
-                 <button>Estudiantes</button>
+                <button>Pregunta frecuentes</button>
+                <button>Contactanos</button>
+                <button>Prensa</button>
+                <button>conferencia</button>
+                <button>Terminos y condiciones</button>
+                <button>Privacidad</button>
+                <button>Estudiantes</button>
             </div>
         </footer>
     </div>
