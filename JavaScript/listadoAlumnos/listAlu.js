@@ -2,7 +2,7 @@ document.addEventListener("keypress", function(e){
 // console.log(e.key)
 if (e.key=="Enter") {
     let inputs=document.getElementsByTagName("input")
-    for (let i = 0; index < input.length; i++) {
+    for (let i = 0; i < input.length; i++) {
         inputs[i].style.display="nome"
     }     
  }  
@@ -18,8 +18,8 @@ function updTexto(id,texto){
 document.getElementById(id).innerHTML=texto
 
 }
-function showInput(fila){
-    document.querySelector("input").style.display="block"
+function showAllInput(fila){
+    document.querySelector("input#nom$").style.display="block"
     document.querySelector('inpunt#nom$(fila)').style.display="block"
 }
 
