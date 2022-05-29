@@ -1,0 +1,25 @@
+body{
+margin: 0px;
+padding: 0px ;
+font-size: 14px;
+background-color: azure;
+}
+
+.caja1{
+    display: inline-block;
+    width: ;
+}
+
+.paddingEm{
+    font-size: 20px;
+    padding: 4em;
+    border: 2px solid;
+}
+.paddingRem{
+    /*font-size: 20px;*/
+    padding: 1rem;
+    border: 2px solid;
+}
+@media screen and (max-with )
+    
+}
