@@ -11,3 +11,10 @@ https://css-tricks.com/,
 
 https://codepen.io/enxaneta/full/adLPwv
 https://animate.style/
+
+link de plugis
+
+https://materializecss.com/
+https://getbootstrap.com/
+
+codewars
